@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classgr_1_1cbacon_1_1msg__det__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::cbacon::msg_det_impl</compoundname>
+    <basecompoundref refid="classgr_1_1cbacon_1_1msg__det" prot="public" virt="non-virtual">gr::cbacon::msg_det</basecompoundref>
+    <includes refid="msg__det__impl_8h" local="no">msg_det_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msg__det__impl_1a2685f55716a51b791a47c867d214e657" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::cbacon::msg_det_impl::shreg</definition>
+        <argsstring></argsstring>
+        <name>shreg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="33" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msg__det__impl_1abd0887b0251e1d309ae9962dd8fbe686" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::cbacon::msg_det_impl::msg_counter</definition>
+        <argsstring></argsstring>
+        <name>msg_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="34" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msg__det__impl_1a29b3c2cba6b28dd65ac9d0d598cc26ad" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::cbacon::msg_det_impl::is_message</definition>
+        <argsstring></argsstring>
+        <name>is_message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="35" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msg__det__impl_1ab28467509a12c981bd1e178e1d7b3e70" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::cbacon::msg_det_impl::start_byte</definition>
+        <argsstring></argsstring>
+        <name>start_byte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="36" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msg__det__impl_1ae07166bb79a5f45f6e20d933d2cf9411" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t gr::cbacon::msg_det_impl::end_byte</definition>
+        <argsstring></argsstring>
+        <name>end_byte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="37" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msg__det__impl_1a4b320f09fc40577c7136e3eec8499764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cbacon::msg_det_impl::msg_det_impl</definition>
+        <argsstring>(std::string startbit, std::string endbit, int max_length)</argsstring>
+        <name>msg_det_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>startbit</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>endbit</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msg__det__impl_1accf3dec2175e2977bbe9129ed80053e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cbacon::msg_det_impl::~msg_det_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~msg_det_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msg__det__impl_1aa785a0b5288ae392ab9d31929263d223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cbacon::msg_det_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msg__det__impl_1a0a355dd5b1bcb52cff5cb8c1c348a51a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cbacon::msg_det_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="18">
+        <label>gr::cbacon::msg_det</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>gr::block</label>
+      </node>
+      <node id="17">
+        <label>gr::cbacon::msg_det_impl</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det__impl"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="21">
+        <label>gr::cbacon::msg_det</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>gr::block</label>
+      </node>
+      <node id="20">
+        <label>gr::cbacon::msg_det_impl</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det__impl"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" line="30" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msg_det_impl.h" bodystart="29" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1ae07166bb79a5f45f6e20d933d2cf9411" prot="private" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>end_byte</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1aa785a0b5288ae392ab9d31929263d223" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a0a355dd5b1bcb52cff5cb8c1c348a51a" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a29b3c2cba6b28dd65ac9d0d598cc26ad" prot="private" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>is_message</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det_1a6d4c45dcdea16e2e7bc3eeca1300e327" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1abd0887b0251e1d309ae9962dd8fbe686" prot="private" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>msg_counter</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a4b320f09fc40577c7136e3eec8499764" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>msg_det_impl</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a2685f55716a51b791a47c867d214e657" prot="private" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>shreg</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det_1a13fd43fe3839f1cd3e9203810ef0eb31" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1ab28467509a12c981bd1e178e1d7b3e70" prot="private" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>start_byte</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det__impl_1accf3dec2175e2977bbe9129ed80053e2" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det_impl</scope><name>~msg_det_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

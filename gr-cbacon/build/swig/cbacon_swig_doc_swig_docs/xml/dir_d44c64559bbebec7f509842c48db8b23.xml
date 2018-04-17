@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include</compoundname>
+    <innerdir refid="dir_7444e03be2a0f499f7c82ce2f97ed59c">/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/"/>
+  </compounddef>
+</doxygen>

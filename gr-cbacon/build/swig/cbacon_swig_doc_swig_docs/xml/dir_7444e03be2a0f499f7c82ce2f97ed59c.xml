@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_7444e03be2a0f499f7c82ce2f97ed59c" kind="dir">
+    <compoundname>/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="msg__det_8h">msg_det.h</innerfile>
+    <innerfile refid="msk__demod_8h">msk_demod.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/"/>
+  </compounddef>
+</doxygen>

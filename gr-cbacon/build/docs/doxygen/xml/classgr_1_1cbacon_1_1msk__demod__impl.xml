@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classgr_1_1cbacon_1_1msk__demod__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::cbacon::msk_demod_impl</compoundname>
+    <basecompoundref refid="classgr_1_1cbacon_1_1msk__demod" prot="public" virt="non-virtual">gr::cbacon::msk_demod</basecompoundref>
+    <includes refid="msk__demod__impl_8h" local="no">msk_demod_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1a83093e8d7eab2ea9485dfafbf4c873be" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::last_zero</definition>
+        <argsstring></argsstring>
+        <name>last_zero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="33" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1aeca9116a4dd05ceaf1a859ed4450b6ef" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::last_value</definition>
+        <argsstring></argsstring>
+        <name>last_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="34" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1ae51395765f07863df7e0b1e8eec539bc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::mean</definition>
+        <argsstring></argsstring>
+        <name>mean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="35" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1a56f81d6d7a78a018f9364e67d410b6c1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::meansq</definition>
+        <argsstring></argsstring>
+        <name>meansq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="36" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1a3adda18687ce488d2ad29fdd82ed163c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::accumulation</definition>
+        <argsstring></argsstring>
+        <name>accumulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="37" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1a4257bae1e0e6999ada58a3c248840840" prot="private" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long gr::cbacon::msk_demod_impl::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="38" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1a2e439ab33aa928ba81d89a7025c6d38d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::baud_rate</definition>
+        <argsstring></argsstring>
+        <name>baud_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="39" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1cbacon_1_1msk__demod__impl_1a56e6dd98c62d9f0b1f2dad30971871f2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::cbacon::msk_demod_impl::samp_rate</definition>
+        <argsstring></argsstring>
+        <name>samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="40" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msk__demod__impl_1a1435f028556fc949abebebdb29b4146a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cbacon::msk_demod_impl::msk_demod_impl</definition>
+        <argsstring>(float samp_rate, float baud_rate)</argsstring>
+        <name>msk_demod_impl</name>
+        <param>
+          <type>float</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baud_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msk__demod__impl_1a066edc1a4e4b95823a71911159cb9abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::cbacon::msk_demod_impl::~msk_demod_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~msk_demod_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msk__demod__impl_1ad78557b1297f55d1a841c8b41e8ce6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::cbacon::msk_demod_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msk__demod__impl_1a014a7db6a1d40d2aa1e4ce2327756372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::cbacon::msk_demod_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>block</label>
+      </node>
+      <node id="28">
+        <label>gr::cbacon::msk_demod_impl</label>
+        <link refid="classgr_1_1cbacon_1_1msk__demod__impl"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>gr::cbacon::msk_demod</label>
+        <link refid="classgr_1_1cbacon_1_1msk__demod"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>block</label>
+      </node>
+      <node id="31">
+        <label>gr::cbacon::msk_demod_impl</label>
+        <link refid="classgr_1_1cbacon_1_1msk__demod__impl"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>gr::cbacon::msk_demod</label>
+        <link refid="classgr_1_1cbacon_1_1msk__demod"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" line="30" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/lib/msk_demod_impl.h" bodystart="29" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a3adda18687ce488d2ad29fdd82ed163c" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>accumulation</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a2e439ab33aa928ba81d89a7025c6d38d" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>baud_rate</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1ad78557b1297f55d1a841c8b41e8ce6d8" prot="public" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a014a7db6a1d40d2aa1e4ce2327756372" prot="public" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1aeca9116a4dd05ceaf1a859ed4450b6ef" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>last_value</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a83093e8d7eab2ea9485dfafbf4c873be" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>last_zero</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod_1a31e95fbcefd0024ac3216390552801c9" prot="public" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1ae51395765f07863df7e0b1e8eec539bc" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>mean</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a56f81d6d7a78a018f9364e67d410b6c1" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>meansq</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a1435f028556fc949abebebdb29b4146a" prot="public" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>msk_demod_impl</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a56e6dd98c62d9f0b1f2dad30971871f2" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>samp_rate</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod_1a803b74d11055edfa59711f6fe98f71b4" prot="public" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a4257bae1e0e6999ada58a3c248840840" prot="private" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>time</name></member>
+      <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a066edc1a4e4b95823a71911159cb9abf" prot="public" virt="non-virtual"><scope>gr::cbacon::msk_demod_impl</scope><name>~msk_demod_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

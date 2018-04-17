@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classgr_1_1cbacon_1_1msg__det" kind="class" language="C++" prot="public">
+    <compoundname>gr::cbacon::msg_det</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1cbacon_1_1msg__det__impl" prot="public" virt="non-virtual">gr::cbacon::msg_det_impl</derivedcompoundref>
+    <includes refid="msg__det_8h" local="no">msg_det.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1cbacon_1_1msg__det_1a13fd43fe3839f1cd3e9203810ef0eb31" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1cbacon_1_1msg__det" kindref="compound">msg_det</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;msg_det&gt; gr::cbacon::msg_det::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h" line="39" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1cbacon_1_1msg__det_1a6d4c45dcdea16e2e7bc3eeca1300e327" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1cbacon_1_1msg__det_1a13fd43fe3839f1cd3e9203810ef0eb31" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::cbacon::msg_det::make</definition>
+        <argsstring>(std::string startbit, std::string endbit, int max_length)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::string</type>
+          <declname>startbit</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>endbit</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_length</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1cbacon_1_1msg__det" kindref="compound">cbacon::msg_det</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1cbacon_1_1msg__det" kindref="compound">cbacon::msg_det</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1cbacon_1_1msg__det_1a6d4c45dcdea16e2e7bc3eeca1300e327" kindref="member">cbacon::msg_det::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>gr::cbacon::msg_det</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gr::block</label>
+      </node>
+      <node id="14">
+        <label>gr::cbacon::msg_det_impl</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>gr::cbacon::msg_det</label>
+        <link refid="classgr_1_1cbacon_1_1msg__det"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h" line="37" column="1" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1cbacon_1_1msg__det_1a6d4c45dcdea16e2e7bc3eeca1300e327" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det</scope><name>make</name></member>
+      <member refid="classgr_1_1cbacon_1_1msg__det_1a13fd43fe3839f1cd3e9203810ef0eb31" prot="public" virt="non-virtual"><scope>gr::cbacon::msg_det</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classgr_1_1cbacon_1_1msg__det.html" title="&lt;+description of block+&gt; " alt="" coords="117,5,260,32"/>
+<area shape="rect" id="node4" href="$classgr_1_1cbacon_1_1msk__demod.html" title="&lt;+description of block+&gt; " alt="" coords="107,56,271,83"/>
+<area shape="rect" id="node3" href="$classgr_1_1cbacon_1_1msg__det__impl.html" title="gr::cbacon::msg_det_impl" alt="" coords="329,5,504,32"/>
+<area shape="rect" id="node5" href="$classgr_1_1cbacon_1_1msk__demod__impl.html" title="gr::cbacon::msk_demod_impl" alt="" coords="319,56,515,83"/>
+</map>

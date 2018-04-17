@@ -1,0 +1,30 @@
+<block>
+  <name>Msg det</name>
+  <key>cbacon_msg_det</key>
+  <category>[CBACON]</category>
+  <import>import cbacon</import>
+  <make>cbacon.msg_det($startbit, $endbit, $max_length)</make>
+  <param>
+    <name>Startbit</name>
+    <key>startbit</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Endbit</name>
+    <key>endbit</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Max_length</name>
+    <key>max_length</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

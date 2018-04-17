@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.10">
+  <compound refid="classgr_1_1cbacon_1_1msg__det" kind="class"><name>gr::cbacon::msg_det</name>
+    <member refid="classgr_1_1cbacon_1_1msg__det_1a13fd43fe3839f1cd3e9203810ef0eb31" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det_1a6d4c45dcdea16e2e7bc3eeca1300e327" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1cbacon_1_1msg__det__impl" kind="class"><name>gr::cbacon::msg_det_impl</name>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a2685f55716a51b791a47c867d214e657" kind="variable"><name>shreg</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1abd0887b0251e1d309ae9962dd8fbe686" kind="variable"><name>msg_counter</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a29b3c2cba6b28dd65ac9d0d598cc26ad" kind="variable"><name>is_message</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1ab28467509a12c981bd1e178e1d7b3e70" kind="variable"><name>start_byte</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1ae07166bb79a5f45f6e20d933d2cf9411" kind="variable"><name>end_byte</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a4b320f09fc40577c7136e3eec8499764" kind="function"><name>msg_det_impl</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1accf3dec2175e2977bbe9129ed80053e2" kind="function"><name>~msg_det_impl</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1aa785a0b5288ae392ab9d31929263d223" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1cbacon_1_1msg__det__impl_1a0a355dd5b1bcb52cff5cb8c1c348a51a" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1cbacon_1_1msk__demod" kind="class"><name>gr::cbacon::msk_demod</name>
+    <member refid="classgr_1_1cbacon_1_1msk__demod_1a803b74d11055edfa59711f6fe98f71b4" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod_1a31e95fbcefd0024ac3216390552801c9" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1cbacon_1_1msk__demod__impl" kind="class"><name>gr::cbacon::msk_demod_impl</name>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a83093e8d7eab2ea9485dfafbf4c873be" kind="variable"><name>last_zero</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1aeca9116a4dd05ceaf1a859ed4450b6ef" kind="variable"><name>last_value</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1ae51395765f07863df7e0b1e8eec539bc" kind="variable"><name>mean</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a56f81d6d7a78a018f9364e67d410b6c1" kind="variable"><name>meansq</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a3adda18687ce488d2ad29fdd82ed163c" kind="variable"><name>accumulation</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a4257bae1e0e6999ada58a3c248840840" kind="variable"><name>time</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a2e439ab33aa928ba81d89a7025c6d38d" kind="variable"><name>baud_rate</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a56e6dd98c62d9f0b1f2dad30971871f2" kind="variable"><name>samp_rate</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a1435f028556fc949abebebdb29b4146a" kind="function"><name>msk_demod_impl</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a066edc1a4e4b95823a71911159cb9abf" kind="function"><name>~msk_demod_impl</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1ad78557b1297f55d1a841c8b41e8ce6d8" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1cbacon_1_1msk__demod__impl_1a014a7db6a1d40d2aa1e4ce2327756372" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1cbacon" kind="namespace"><name>gr::cbacon</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a53fc4b8db853eedd6a8bc96cce9ed17e" kind="define"><name>CBACON_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="msg__det_8h" kind="file"><name>msg_det.h</name>
+  </compound>
+  <compound refid="msg__det__impl_8h" kind="file"><name>msg_det_impl.h</name>
+  </compound>
+  <compound refid="msk__demod_8h" kind="file"><name>msk_demod.h</name>
+  </compound>
+  <compound refid="msk__demod__impl_8h" kind="file"><name>msk_demod_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_7444e03be2a0f499f7c82ce2f97ed59c" kind="dir"><name>cbacon</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

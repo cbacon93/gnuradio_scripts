@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="msg__det_8h" kind="file" language="C++">
+    <compoundname>msg_det.h</compoundname>
+    <includes refid="api_8h" local="no">cbacon/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="msg__det__impl_8h" local="no">msg_det_impl.h</includedby>
+    <incdepgraph>
+      <node id="46">
+        <label>msg_det.h</label>
+        <link refid="msg_det.h"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>cbacon/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="48" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="49">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="50">
+        <label>msg_det.h</label>
+        <link refid="msg_det.h"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>msg_det_impl.h</label>
+        <link refid="msg__det__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1cbacon_1_1msg__det" prot="public">gr::cbacon::msg_det</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1cbacon">gr::cbacon</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h"/>
+  </compounddef>
+</doxygen>

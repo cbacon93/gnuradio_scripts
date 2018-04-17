@@ -1,0 +1,27 @@
+<block>
+  <name>Msk demod</name>
+  <key>cbacon_msk_demod</key>
+  <category>[CBACON]</category>
+  <import>import cbacon</import>
+  <make>cbacon.msk_demod($samp_rate, $baud_rate)</make>
+  <param>
+    <name>Samp_rate</name>
+    <key>samp_rate</key>
+    <value>100000</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Baud_rate</name>
+    <key>baud_rate</key>
+    <value> 2400</value>
+    <type>float</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

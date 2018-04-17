@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="msg__det_8h" local="no">msg_det.h</includedby>
+    <includedby refid="msk__demod_8h" local="no">msk_demod.h</includedby>
+    <incdepgraph>
+      <node id="35">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="38">
+        <label>msg_det.h</label>
+        <link refid="msg__det_8h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>msg_det_impl.h</label>
+        <link refid="msg__det__impl_8h"/>
+      </node>
+      <node id="37">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>msk_demod_impl.h</label>
+        <link refid="msk__demod__impl_8h"/>
+      </node>
+      <node id="40">
+        <label>msk_demod.h</label>
+        <link refid="msk__demod_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a53fc4b8db853eedd6a8bc96cce9ed17e" prot="public" static="no">
+        <name>CBACON_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/api.h" line="30" column="12" bodyfile="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/api.h"/>
+  </compounddef>
+</doxygen>

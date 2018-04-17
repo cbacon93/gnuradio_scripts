@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="namespacegr_1_1cbacon" kind="namespace" language="C++">
+    <compoundname>gr::cbacon</compoundname>
+    <innerclass refid="classgr_1_1cbacon_1_1msg__det" prot="public">gr::cbacon::msg_det</innerclass>
+    <innerclass refid="classgr_1_1cbacon_1_1msg__det__impl" prot="public">gr::cbacon::msg_det_impl</innerclass>
+    <innerclass refid="classgr_1_1cbacon_1_1msk__demod" prot="public">gr::cbacon::msk_demod</innerclass>
+    <innerclass refid="classgr_1_1cbacon_1_1msk__demod__impl" prot="public">gr::cbacon::msk_demod_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/marcel/Documents/Coding/gnuradio/gr-cbacon/include/cbacon/msg_det.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>
